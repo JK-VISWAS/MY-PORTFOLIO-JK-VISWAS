@@ -1,0 +1,25 @@
+/* src/LightPillar.css */
+
+/* Ensures the 3D canvas fills the entire background container */
+canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Crucial: This allows you to click buttons and links 
+   "through" the 3D background layer. 
+*/
+.pointer-events-none {
+  pointer-events: none; 
+}
+
+/* Optional: Smoothly blends the pillar if you want a subtle glow */
+.light-pillar-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
