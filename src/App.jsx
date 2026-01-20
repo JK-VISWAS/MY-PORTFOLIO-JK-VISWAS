@@ -181,7 +181,7 @@ const App = () => {
           topColor="#5227FF"
           bottomColor="#FF9FFC"
           intensity={0.5}
-          rotationSpeed={0.5}
+          rotationSpeed={2.0}
           pillarWidth={3.5}
         />
       </div>
