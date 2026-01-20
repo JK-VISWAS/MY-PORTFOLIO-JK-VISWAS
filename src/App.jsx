@@ -108,11 +108,12 @@ const App = () => {
     {
       title: "Project One",
       videoUrl: "/videos/eco-track-bg-video.mp4",
-      link: "https://your-website-link.com",
-      tech: ["React", "Tailwind", "Node.js"]
+      link: "https://jk-viswas.github.io/ECO_TRACK_PROJECT/",
+      tech: ["HTML", "CSS", "JAVASCRIPT","Firebase"]
     },
     // Add more projects here
   ];
+  
 
   const ProjectCard = ({ project }) => {
     return (
