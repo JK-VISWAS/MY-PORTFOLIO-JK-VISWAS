@@ -106,7 +106,7 @@ const App = () => {
 
   const projects = [
     {
-      title: "Project One",
+      title: "ECO TRACK",
       videoUrl: "/videos/eco-track-bg-video.mp4",
       link: "https://jk-viswas.github.io/ECO_TRACK_PROJECT/",
       tech: ["HTML", "CSS", "JAVASCRIPT","Firebase"]
